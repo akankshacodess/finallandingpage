@@ -57,21 +57,22 @@ const WorkProcess: React.FC = () => {
     <>
       {workProcessData &&
         workProcessData.map((value, i) => (
-          <section className="work-process-area ptb-100" key={i}>
+          <div className="work-process-area ptb-100 " key={i}>
             <div className="container">
-              <div className="section-title">
+              <div className="section-title ">
                 <h2>{value.title}</h2>
                 <p>{value.shortText}</p>
               </div>
 
-              <div className="work-process">
-                <div
+              <div className="work-process ">
+                {/* <div
                   data-aos="zoom-in"
                   data-aos-duration="1000"
                   data-aos-delay="600"
                 >
                   <Image src={value.image} alt="image" width={492} height={941} />
-                </div>
+                </div> */}
+                <div className="w-[492px] h-[941px]"></div>
 
                 <div className="work-process-list">
                   {value.list.slice(0, 6).map((value, i) => (
@@ -100,7 +101,7 @@ const WorkProcess: React.FC = () => {
                 />
               </div>
             </div>
-          </section>
+          </div>
         ))}
     </>
   );

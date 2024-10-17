@@ -46,7 +46,7 @@ const feedbacskData: FeedbackItem[] = [
 const Feedback: React.FC = () => {
   return (
     <>
-      <div className="feedback-area ptb-100">
+      <div className="feedback-area ptb-100 ">
         <div className="container">
           <div className="feedback-list">
             <div className="quotes-icon">
