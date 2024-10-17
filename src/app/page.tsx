@@ -7,7 +7,7 @@ import OurWorks from "../components/HomePages/BusinessAgency/OurWorks";
 import WorkProcess from "../components/HomePages/BusinessAgency/WorkProcess";
 import Feedback from "../components/Common/Feedback";
 import TeamStyleTwo from "../components/Common/TeamStyleTwo";
-import PricingStyleTwo from "../components/Pricing/PricingStyleTwo";
+
 import PartnerTwo from "../components/Common/PartnerTwo";
 import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 
@@ -32,7 +32,7 @@ export default function Page() {
 
       <TeamStyleTwo />
 
-      <PricingStyleTwo />
+
 
       <PartnerTwo />
 
