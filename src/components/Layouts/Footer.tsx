@@ -154,8 +154,8 @@ const Footer: React.FC = () => {
                 <h3>Get in Touch</h3>
 
                 <ul className="get-in-touch">
-                  <li>
-                    <i className="fa-solid fa-location-dot"></i>  Kohat Enclave, Delhi, India
+                  <li className="text-gray-600">
+                    <i className="fa-solid fa-location-dot"></i> <a href="https://www.google.com/maps/search/?api=1&query=Kohat%20Enclave%20Delhi%20Metro%20Station%20Kohat%20Enclave%2C%20IN">Kohat Enclave, Delhi, India</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>

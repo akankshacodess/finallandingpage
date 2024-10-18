@@ -32,7 +32,7 @@ const CtaAreaTwo: React.FC = () => {
             data-aos-delay="300"
           >
             <Link href="/contact-us/" className="custom-btn">
-              Contact Us
+              Book our Free Consultation
             </Link>
           </div>
         </div>

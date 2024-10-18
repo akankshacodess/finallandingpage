@@ -28,7 +28,7 @@ const GoTop = () => {
     <>
       {showButton && (
         <div onClick={scrollToTop} className="scroll-to-top">
-          <i className="pe-7s-angle-up"></i>
+          <i className="pe-7s-angle-up">&#9650;</i>
         </div>
       )}
     </>
