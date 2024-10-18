@@ -18,7 +18,7 @@ const NavbarTwo: React.FC = () => {
   };
 
   useEffect(() => {
-    const elementId = document.getElementById("navbar");
+    let elementId = document.getElementById("navbar");
     document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
         elementId?.classList.add("is-sticky");

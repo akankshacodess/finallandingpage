@@ -4,8 +4,8 @@ import FsLightbox from "fslightbox-react";
 
 import Link from "next/link";
 import React, { useState } from "react";
-import { Keyboard, Mousewheel, Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Keyboard, Mousewheel, Navigation, Pagination } from "swiper/modules";
+import { SwiperSlide } from "swiper/react";
 
 const MainBanner: React.FC = () => {
   const [toggler, setToggler] = useState(false);
@@ -16,7 +16,7 @@ const MainBanner: React.FC = () => {
         sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
       />
 
-      <Swiper
+      {/* <Swiper
         autoHeight={true}
         cssMode={true}
         navigation={true}
@@ -27,8 +27,8 @@ const MainBanner: React.FC = () => {
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="hero-slider"
-      >
-        <SwiperSlide>
+      > */}
+        {/* <SwiperSlide>
           <div
             className="hero-banner overly"
             style={{
@@ -64,7 +64,7 @@ const MainBanner: React.FC = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <SwiperSlide>
           <div
@@ -77,7 +77,7 @@ const MainBanner: React.FC = () => {
               <div className="d-table-cell">
                 <div className="container">
                   <div className="main-banner-content left">
-                    <h1>Grow Your Business</h1>
+                    <h1>Email Management using AI</h1>
 
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -87,14 +87,14 @@ const MainBanner: React.FC = () => {
 
                     <div>
                       <Link href="/contact-us/" className="btn btn-primary">
-                        Contact Us
+                        Book a Free Consultation
                       </Link>
 
                       <button
                         onClick={() => setToggler(!toggler)}
                         className="btn btn-secondary"
                       >
-                        <i className="fa-solid fa-play me-1"></i> How it works
+                        <i className="fa-solid fa-play me-1"></i><Link href="https://www.youtube.com/embed/bk7McNUjWgw"> How it works</Link>
                       </button>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ const MainBanner: React.FC = () => {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             className="hero-banner overly"
             style={{
@@ -140,8 +140,8 @@ const MainBanner: React.FC = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
-      </Swiper>
+        </SwiperSlide> */}
+      {/* </Swiper> */}
     </>
   );
 };

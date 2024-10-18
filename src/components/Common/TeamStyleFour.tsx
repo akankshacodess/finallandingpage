@@ -1,7 +1,7 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
+import React from "react";
 
 const teamMemberData = [
   {
@@ -129,7 +129,7 @@ const teamMemberData = [
 const TeamStyleFour: React.FC = () => {
   return (
     <>
-      <div className="team-area ptb-100">
+      <div className="team-area ptb-100 bg-slate-200">
         <div className="container">
           <div className="section-title">
             <h2>Our Creative Team</h2>

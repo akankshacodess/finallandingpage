@@ -61,7 +61,7 @@ const OurWorks: React.FC = () => {
       <div className="case-studies-area ptb-100 bg-fcfbfb">
         <div className="container">
           <div className="section-title">
-            <h2>Our Works</h2>
+            <h2>Use Cases</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

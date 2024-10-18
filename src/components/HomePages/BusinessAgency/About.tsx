@@ -51,29 +51,29 @@ const About: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-delay="400"
               >
-                <div className="section-title">
-                  <h2>About Us</h2>
+                {/* <div className="section-title">
+                  <h2 className="justify-self-center">About Us</h2>
                   <p>
                     Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
                     In sagittis eg esta ante, sed viverra nunc tinci dunt nec
                     elei fend et tiram.
                   </p>
-                </div>
+                </div> */}
 
                 <div className="about-text">
-                  <h4>Who We Are</h4>
-                  <p>
+                  <div className="justify-self-center text-2xl text-black">Are you facing these challenges?</div><br/>
+                  {/* <p>
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque ipsa quae ab illo inventore veritatis et
                     quasi architecto beatae vitae dicta sunt explicabo.
-                  </p>
+                  </p> */}
                 </div>
 
                 <div className="row">
                   <div className="col-lg-6">
-                    <div className="about-text mb-30">
-                      <h4>Our Success</h4>
+                    <div className="about-text mb-30 text-black text-base">
+                      {/* <h4>Our Success</h4> */}
                       <ul>
                         <li>
                           <i className="fa-solid fa-circle-check"></i>
@@ -94,7 +94,7 @@ const About: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-6">
+                  {/* <div className="col-lg-6">
                     <div className="about-text mb-30">
                       <h4>Grow Business</h4>
                       <ul>
@@ -115,7 +115,7 @@ const About: React.FC = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

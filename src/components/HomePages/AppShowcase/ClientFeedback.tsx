@@ -118,8 +118,8 @@ const ClientFeedback: React.FC = () => {
       <div className="pb-100">
         <div className="container">
           <div className="section-title">
-            <span className="app-sub-title">CLIENT REVIEWS</span>
-            <h2>Some of Our Happy Customer Reviews About Our Products</h2>
+            <span className="app-sub-title"><div className="m-8 text-xl">CLIENT REVIEWS</div></span>
+            <h2 className="text-gray-200">Some of Our Happy Customer Reviews About Our Products</h2>
           </div>
 
           <Swiper
