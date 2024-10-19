@@ -11,11 +11,12 @@ const About: React.FC = () => {
   return (
     <>
       <FsLightbox
-        toggler={toggler}
+        toggler={toggler} 
         sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        
       />
 
-      <section className="about-area bg-fcfbfb ptb-100">
+      <section className="about-area bg-fcfbfb ptb-100" style={{ backgroundColor: "#f8f8f8" }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
@@ -35,10 +36,10 @@ const About: React.FC = () => {
 
                 <div className="video-box">
                   <div
-                    className="video-btn"
+                    className="video-btn" style={{backgroundColor:"#0177B6"}}
                     onClick={() => setToggler(!toggler)}
                   >
-                    <i className="fa-solid fa-play"></i>
+                    <i className="fa-solid fa-play" style={{ color: "#FFFFFF "}}></i>
                   </div>
                 </div>
               </div>
@@ -61,7 +62,7 @@ const About: React.FC = () => {
                 </div> */}
 
                 <div className="about-text">
-                  <div className="justify-self-center text-2xl text-black">Are you facing these challenges?</div><br/>
+                  <div className="text-black text-center" style={{fontSize: '30px', fontWeight:'bolder' }}>Are you facing these challenges?</div><br/>
                   {/* <p>
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem
@@ -76,17 +77,17 @@ const About: React.FC = () => {
                       {/* <h4>Our Success</h4> */}
                       <ul>
                         <li>
-                          <i className="fa-solid fa-circle-check"></i>
+                          <i className="fa-solid fa-circle-check" style={{ color: "#0177B6" }}></i>
                           Lorem Ipsum is simply dummy text of the printing and
                           typesetting industry.
                         </li>
                         <li>
-                          <i className="fa-solid fa-circle-check"></i>
+                          <i className="fa-solid fa-circle-check" style={{ color: "#0177B6" }}></i>
                           It is a long established fact that a reader will be
                           distracted by the readable.
                         </li>
                         <li>
-                          <i className="fa-solid fa-circle-check"></i>
+                          <i className="fa-solid fa-circle-check" style={{ color: "#0177B6" }}></i>
                           Contrary to popular belief, Lorem Ipsum is not simply
                           random text.
                         </li>
@@ -127,3 +128,4 @@ const About: React.FC = () => {
 };
 
 export default About;
+

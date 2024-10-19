@@ -19,14 +19,23 @@ const NavbarTwo: React.FC = () => {
 
   useEffect(() => {
     const elementId = document.getElementById("navbar");
-    document.addEventListener("scroll", () => {
+    const handleScroll = () => {
       if (window.scrollY > 170) {
         elementId?.classList.add("is-sticky");
       } else {
         elementId?.classList.remove("is-sticky");
       }
-    });
+    };
+  
+    document.addEventListener("scroll", handleScroll);
+    
+    // Cleanup function
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
   }, []);
+  
+  
 
   const classOne = menu
     ? "collapse navbar-collapse"
@@ -68,9 +77,9 @@ const NavbarTwo: React.FC = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="icon-bar top-bar"></span>
-              <span className="icon-bar middle-bar"></span>
-              <span className="icon-bar bottom-bar"></span>
+              <span className="icon-bar top-bar" style={{ backgroundColor: "#0177B6" }}></span>
+              <span className="icon-bar middle-bar" style={{ backgroundColor: "#0177B6" }}></span>
+              <span className="icon-bar bottom-bar" style={{ backgroundColor: "#0177B6" }}></span>
             </button>
 
             <div className={classOne} id="navbarSupportedContent">
@@ -96,3 +105,4 @@ const NavbarTwo: React.FC = () => {
 };
 
 export default NavbarTwo;
+

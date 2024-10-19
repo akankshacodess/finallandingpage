@@ -15,6 +15,14 @@ import faqImg from "../../../public/images/faq-img.jpg";
 const FaqContent: React.FC = () => {
   return (
     <>
+
+    {/* css not working */}
+    <h2
+  className="justify-self-center font-bold text-white text-2xl text-center"
+  style={{ color: "#0177B6", padding:"30px 0 0 0", fontSize: "2rem" }} // Adjusting color and margin
+>
+  Frequently Asked Questions
+</h2>
       <div className="faq-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
@@ -29,7 +37,24 @@ const FaqContent: React.FC = () => {
                 <Accordion allowZeroExpanded preExpanded={["a"]}>
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                    <AccordionItemButton
+                        style={{
+                          backgroundColor: "white", // Set the background color
+                           // Set text color
+                          border: "1px solid #ccc", // Add a border
+                          padding: "15px",
+                          borderRadius: "5px",
+                          transition: "background-color 0.3s, color 0.3s",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.backgroundColor = "#0177B6"; // Change background on hover
+                          e.currentTarget.style.color = "white"; // Change text color on hover
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.backgroundColor = "white"; // Reset background on leave
+                          e.currentTarget.style.color = "#0177B6"; // Reset text color on leave
+                        }}
+                      >
                         What access do I have on the free plan?
                       </AccordionItemButton>
                     </AccordionItemHeading>
@@ -45,7 +70,24 @@ const FaqContent: React.FC = () => {
 
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                    <AccordionItemButton
+                        style={{
+                          backgroundColor: "white", // Set the background color
+                           // Set text color
+                          border: "1px solid #ccc", // Add a border
+                          padding: "15px",
+                          borderRadius: "5px",
+                          transition: "background-color 0.3s, color 0.3s",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.backgroundColor = "#0177B6"; // Change background on hover
+                          e.currentTarget.style.color = "white"; // Change text color on hover
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.backgroundColor = "white"; // Reset background on leave
+                          e.currentTarget.style.color = "#0177B6"; // Reset text color on leave
+                        }}
+                      >
                         What access do I have on a free trial?
                       </AccordionItemButton>
                     </AccordionItemHeading>
@@ -61,7 +103,24 @@ const FaqContent: React.FC = () => {
 
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                    <AccordionItemButton
+                        style={{
+                          backgroundColor: "white", // Set the background color
+                           // Set text color
+                          border: "1px solid #ccc", // Add a border
+                          padding: "15px",
+                          borderRadius: "5px",
+                          transition: "background-color 0.3s, color 0.3s",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.backgroundColor = "#0177B6"; // Change background on hover
+                          e.currentTarget.style.color = "white"; // Change text color on hover
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.backgroundColor = "white"; // Reset background on leave
+                          e.currentTarget.style.color = "#0177B6"; // Reset text color on leave
+                        }}
+                      >
                         Does the price go up as my team gets larger?
                       </AccordionItemButton>
                     </AccordionItemHeading>
@@ -77,7 +136,24 @@ const FaqContent: React.FC = () => {
 
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                    <AccordionItemButton
+                        style={{
+                          backgroundColor: "white", // Set the background color
+                           // Set text color
+                          border: "1px solid #ccc", // Add a border
+                          padding: "15px",
+                          borderRadius: "5px",
+                          transition: "background-color 0.3s, color 0.3s",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.backgroundColor = "#0177B6"; // Change background on hover
+                          e.currentTarget.style.color = "white"; // Change text color on hover
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.backgroundColor = "white"; // Reset background on leave
+                          e.currentTarget.style.color = "#0177B6"; // Reset text color on leave
+                        }}
+                      >
                         How can I cancel/pause my subscription?
                       </AccordionItemButton>
                     </AccordionItemHeading>
@@ -93,7 +169,24 @@ const FaqContent: React.FC = () => {
 
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                    <AccordionItemButton
+                        style={{
+                          backgroundColor: "white", // Set the background color
+                           // Set text color
+                          border: "1px solid #ccc", // Add a border
+                          padding: "15px",
+                          borderRadius: "5px",
+                          transition: "background-color 0.3s, color 0.3s",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.backgroundColor = "#0177B6"; // Change background on hover
+                          e.currentTarget.style.color = "white"; // Change text color on hover
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.backgroundColor = "white"; // Reset background on leave
+                          e.currentTarget.style.color = "#0177B6"; // Reset text color on leave
+                        }}
+                      >
                         Can I pay via an invoice?
                       </AccordionItemButton>
                     </AccordionItemHeading>

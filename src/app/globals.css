@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --hoverColor: hsl(213, 96%, 31%);
+  --whiteColor: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {

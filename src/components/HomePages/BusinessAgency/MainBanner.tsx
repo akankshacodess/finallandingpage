@@ -92,7 +92,7 @@ const MainBanner: React.FC = () => {
 
                       <button
                         onClick={() => setToggler(!toggler)}
-                        className="btn btn-secondary"
+                        className="btn btn-primary"
                       >
                         <i className="fa-solid fa-play me-1"></i><Link href="https://www.youtube.com/embed/bk7McNUjWgw"> How it works</Link>
                       </button>
@@ -147,3 +147,4 @@ const MainBanner: React.FC = () => {
 };
 
 export default MainBanner;
+

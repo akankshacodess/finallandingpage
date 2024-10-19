@@ -44,7 +44,7 @@ const FaqForm: React.FC = () => {
     <>
       <div className="contact-form">
         <div className="contact-title">
-          <h2 className="pt-4 text-pink-500 text-2xl">Ask Your Questions</h2>
+          <h2>Ask Your Questions</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -53,7 +53,7 @@ const FaqForm: React.FC = () => {
 
         <form onSubmit={handleSubmit}>
           <div className="container">
-            <div className="contact-form-box">
+            <div className="contact-form-box ">
               <div className="row">
                 <div className="col-lg-6">
                   <div className="form-group">

@@ -45,8 +45,8 @@ This files table contents are outlined below >>>>>
 
 // Global Variable
 
-$main-color: #ff2c9c;
-$gradient-color: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+$main-color: #2000c0db;
+$gradient-color: linear-gradient(44.44deg, #182eb7 7.79%, #64b9ff 94.18%);
 $font-size: 15px;
 $black-color: #18181b;
 $paragraph-color: #646464;
@@ -286,8 +286,8 @@ a {
 }
 
 .btn-secondary {
-    color: $main-color;
-    background-color: transparent;
+    color: $white-color;
+    background-color: $white-color;
     border: 1px solid $main-color;
 
     &::before {
@@ -335,8 +335,8 @@ a {
 }
 
 .default-btn-two {
-    border: 2px solid #f9004d;
-    background: #f9004d;
+    border: 2px solid #2e00f9;
+    background: #2115ff;
     color: #fff;
     border-radius: 6px;
     text-align: center;

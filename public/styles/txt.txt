@@ -1,0 +1,6 @@
+--mainColor: hsl(213, 96%, 31%);
+--whiteColor: #ffffff;
+--blackColor: #262A37;
+--gradientColor: linear-gradient(44.44deg, #00138d 7.79%, #55a7ff 94.18%);
+
+#000d9f

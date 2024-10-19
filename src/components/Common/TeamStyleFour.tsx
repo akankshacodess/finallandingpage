@@ -1,3 +1,5 @@
+
+
 "use client";
 
 import Image from "next/image";
@@ -10,7 +12,6 @@ const teamMemberData = [
     designation: "UI/UX Designer",
     email: "contactJosButtler@gmail.com",
     aosDelay: "100",
-
     socialLinks: [
       {
         iconName: "fa-brands fa-linkedin-in",
@@ -40,7 +41,6 @@ const teamMemberData = [
     designation: "Marketing Specialist",
     email: "contactJohn@gmail.com",
     aosDelay: "200",
-
     socialLinks: [
       {
         iconName: "fa-brands fa-linkedin-in",
@@ -70,7 +70,6 @@ const teamMemberData = [
     designation: "QA Specialist",
     email: "contactNick@gmail.com",
     aosDelay: "300",
-
     socialLinks: [
       {
         iconName: "fa-brands fa-linkedin-in",
@@ -100,7 +99,6 @@ const teamMemberData = [
     designation: "Creative Director",
     email: "contactMiller@gmail.com",
     aosDelay: "400",
-
     socialLinks: [
       {
         iconName: "fa-brands fa-linkedin-in",
@@ -129,7 +127,7 @@ const teamMemberData = [
 const TeamStyleFour: React.FC = () => {
   return (
     <>
-      <div className="team-area ptb-100 bg-slate-200">
+      <div className="team-area ptb-100" style={{ background: "#ffffff" }}>
         <div className="container">
           <div className="section-title">
             <h2>Our Creative Team</h2>
@@ -157,15 +155,15 @@ const TeamStyleFour: React.FC = () => {
                         height={290}
                       />
 
-                      <div className="overlay">
+                      <div className="overlay" >
                         <p>
                           Email: <span>{value.email}</span>
                         </p>
 
-                        <ul>
+                        <ul >
                           {value.socialLinks.map((value, i) => (
                             <li key={i}>
-                              <a href={value.url} target="_blank">
+                              <a href={value.url} target="_blank" rel="noopener noreferrer">
                                 <i className={value.iconName}></i>
                               </a>
                             </li>
@@ -174,7 +172,7 @@ const TeamStyleFour: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="team-content">
+                    <div className="team-content" style={{ background: 'linear-gradient(135deg, #0177B6, #014C87, #023C77)', color: '#fff', borderRadius: '5px' }}>
                       <h3>{value.name}</h3>
                       <span>{value.designation}</span>
                     </div>

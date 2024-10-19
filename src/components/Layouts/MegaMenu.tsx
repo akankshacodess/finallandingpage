@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-// import { usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const MegaMenu: React.FC = () => {
-  // const currentRoute = usePathname();
+  const currentRoute = usePathname();
 
   return (
     <>
