@@ -115,7 +115,10 @@ const clientFeedbackData = [
 const ClientFeedback: React.FC = () => {
   return (
     <>
-      <div className="pb-100">
+      <div className="pb-100" style={{
+        background: "linear-gradient(110deg, black, navy)",
+        color: "white", // Ensure text is readable on the dark background
+      }}>
         <div className="container">
           <div className="section-title">
             <span className="app-sub-title"><div className="m-8 text-xl"></div></span>
@@ -129,7 +132,7 @@ const ClientFeedback: React.FC = () => {
             }}
             spaceBetween={30}
             autoplay={{
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: true,
               pauseOnMouseEnter: true,
             }}
@@ -173,7 +176,7 @@ const ClientFeedback: React.FC = () => {
                       <h5>{value.category}</h5>
                       <div>
                         {value.rating.map((value, i) => (
-                          <i className={value.iconName} key={i}></i>
+                          <i className={value.iconName} style={{color:"gold"}} key={i}></i>
                         ))}
                       </div>
                     </div>

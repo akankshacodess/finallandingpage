@@ -69,7 +69,11 @@ const partnersData = [
 const PartnerTwo: React.FC = () => {
   return (
     <>
-      <div className="partner-area pt-100 pb-70">
+      <div className="partner-area pt-100 pb-70"
+      style ={{
+        background: "linear-gradient(110deg, black, navy)",
+        
+      }}>
         <div className="container">
           <div className="section-title">
             <h2 className="text-white">Our Loving Clients</h2>

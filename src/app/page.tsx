@@ -42,8 +42,8 @@ export default function Page() {
 
       <TeamStyleFour/>
       <PartnerTwo />
-      <FaqContent/>
       <FaqForm/>
+      <FaqContent/>
 
 
       {/* <LatestNewsSlider /> */}

@@ -53,8 +53,8 @@ const CtaAreaTwo: React.FC = () => {
   return (
     <div
       style={{
-        background: "linear-gradient(to bottom, #0177B6, #014C87, #023C77)", // Gradient blue shades
-        padding: "100px 0", // Ensure padding is retained
+        background: "linear-gradient(110deg,#0C0053, navy)", // Gradient blue shades
+        padding: "100px 0", 
       }}
     >
       <div className="container">
@@ -81,7 +81,7 @@ const CtaAreaTwo: React.FC = () => {
         </div>
 
         <div
-          className="cta-btn-box"
+          className="cta-btn-box p-4"
           data-aos="fade-in"
           data-aos-duration="1000"
           data-aos-delay="300"

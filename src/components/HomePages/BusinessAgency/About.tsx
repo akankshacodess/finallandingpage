@@ -1,20 +1,20 @@
 "use client";
 
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
+// import React, { useState } from "react";
+// import FsLightbox from "fslightbox-react";
 import Image from "next/image";
 
-import aboutImg from '../../../../public/images/about-img5.jpg';
+import aboutImg from '../../../../public/images/challenges.webp';
 
 const About: React.FC = () => {
-  const [toggler, setToggler] = useState(false);
+  // const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler} 
+      {/* <FsLightbox
+        // toggler={toggler} 
         sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
         
-      />
+      /> */}
 
       <section className="about-area bg-fcfbfb ptb-100" style={{ backgroundColor: "#f8f8f8" }}>
         <div className="container">
@@ -34,18 +34,18 @@ const About: React.FC = () => {
                   height={650}
                 />
 
-                <div className="video-box">
+                {/* <div className="video-box">
                   <div
                     className="video-btn" style={{backgroundColor:"#0177B6"}}
                     onClick={() => setToggler(!toggler)}
                   >
                     <i className="fa-solid fa-play" style={{ color: "#FFFFFF "}}></i>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
-            <div className="col-lg-7 col-md-12">
+            <div className=" p-4 col-lg-7 col-md-12">
               <div 
                 className="about-content about-content-two"
                 data-aos="fade-in"
@@ -63,16 +63,10 @@ const About: React.FC = () => {
 
                 <div className="about-text">
                   <div className="text-black text-center" style={{fontSize: '30px', fontWeight:'bolder' }}>Are you facing these challenges?</div><br/>
-                  {/* <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo.
-                  </p> */}
                 </div>
 
-                <div className="row">
-                  <div className="col-lg-6">
+                <div className="row justify-content-center">
+                  <div className="col-lg-7">
                     <div className="about-text mb-30 text-black text-base">
                       {/* <h4>Our Success</h4> */}
                       <ul>

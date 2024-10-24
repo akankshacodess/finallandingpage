@@ -42,8 +42,8 @@ const FaqForm: React.FC = () => {
 
   return (
     <>
-      <div className="contact-form">
-        <div className="contact-title">
+      <div className="contact-form pt-5">
+        <div className=" section-title">
           <h2>Ask Your Questions</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

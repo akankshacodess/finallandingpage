@@ -15,14 +15,17 @@ import faqImg from "../../../public/images/faq-img.jpg";
 const FaqContent: React.FC = () => {
   return (
     <>
-
+  <div style ={{
+        background: "linear-gradient(110deg, black, navy)",
+        
+      }}>
     {/* css not working */}
     <h2
   className="justify-self-center font-bold text-white text-2xl text-center"
-  style={{ color: "#0177B6", padding:"30px 0 0 0", fontSize: "2rem" }} // Adjusting color and margin
+  style={{ color: "#0177B6", padding:"50px 0 0 0", fontSize: "2rem"}} // Adjusting color and margin
 >
   Frequently Asked Questions
-</h2>
+    </h2>
       <div className="faq-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
@@ -204,6 +207,7 @@ const FaqContent: React.FC = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

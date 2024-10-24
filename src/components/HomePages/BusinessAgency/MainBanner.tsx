@@ -70,12 +70,12 @@ const MainBanner: React.FC = () => {
           <div
             className="hero-banner overly"
             style={{
-              backgroundImage: `url(/images/hero-banner12.jpg)`,
+              backgroundImage: `url(/images/emailol1.webp)`
             }}
           >
             <div className="d-table">
               <div className="d-table-cell">
-                <div className="container">
+                <div className="container pb-4">
                   <div className="main-banner-content left">
                     <h1>Email Management using AI</h1>
 

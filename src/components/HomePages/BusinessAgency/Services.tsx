@@ -57,7 +57,12 @@ const servicesData = [
 const Services: React.FC = () => {
   return (
     <>
-      <div className="pt-100 pb-70">
+
+      <div className="pt-100 pb-70" 
+      style={{
+        background: "linear-gradient(110deg, black, navy)",
+        color: "white", // Ensure text is readable on the dark background
+      }}>
         <div className="container">
           <div className="section-title">
             <h2 className="text-white">What We Offer</h2>
@@ -89,6 +94,7 @@ const Services: React.FC = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

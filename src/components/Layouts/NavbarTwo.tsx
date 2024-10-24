@@ -47,7 +47,7 @@ const NavbarTwo: React.FC = () => {
   return (
     <>
       <div id="navbar" className="navbar-area navbar-style-2">
-        <nav className="navbar navbar-expand-md navbar-light">
+        <nav className="navbar navbar-expand-md  navbar-light">
           <div className="container-fluid">
             <Link href="/" className="navbar-brand">
               <Image
@@ -76,6 +76,7 @@ const NavbarTwo: React.FC = () => {
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              
             >
               <span className="icon-bar top-bar" style={{ backgroundColor: "#0177B6" }}></span>
               <span className="icon-bar middle-bar" style={{ backgroundColor: "#0177B6" }}></span>
@@ -92,7 +93,7 @@ const NavbarTwo: React.FC = () => {
               </ul>
 
               <div className="others-options">
-                <Link href="/contact-us/" className="btn btn-primary">
+                <Link href="/contact-us/" className="btn btn-primary ">
                   Get Started
                 </Link>
               </div>
